@@ -22,7 +22,7 @@ The communication for this will follow a similar structure as for announcing the
 ### Internal Message
 The internal message below can be formatted as an email or as an internal confluence article which is sent out to inform people of the change. A list of actions that will be allowed and not allowed will be pubicly documented so that users can consult it when building their workflows. 
 ```md
-# [Action Required] New GitHub Repository Standards for Community Health Files
+# [Action Required] Restrictions on Unsecure GitHub Actions
 
 Dear all,
 To improve the security our GitHub repositories, we’re going to allow only internal and some external actions to be used in the workflows of the repositories. Only actions that have been audited by the admin team will be allowed to be added to workflows to ensure we do not introduce external vulnerabilities into our repositories. 
