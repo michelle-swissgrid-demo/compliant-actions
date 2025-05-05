@@ -25,13 +25,14 @@ The internal message below can be formatted as an email or as an internal conflu
 # [Action Required] Restrictions on Unsecure GitHub Actions
 
 Dear all,
-To improve the security our GitHub repositories, we’re going to allow only internal and some external actions to be used in the workflows of the repositories. Only actions that have been audited by the admin team will be allowed to be added to workflows to ensure we do not introduce external vulnerabilities into our repositories. 
+To improve the security our GitHub repositories, we’re going to allow only internal and some external actions to be used in the workflows of the repositories. Only actions that have been audited by the admin team will be allowed to be added to workflows to ensure we do not introduce external vulnerabilities into our repositories. If there are specific unofficial GitHub actions that are essential to your existing workflows, please submit them on this [form] to be audited and potentially added to the list of approved workflows.
 
 ## What’s Changing?
 
 Starting [specific date], every repository will only be allowed to use approved actions. Some which will no longer be permitted are below:
 
 1. buggy/buggy-actions
+...
 
 ## How is this enforced?
 
